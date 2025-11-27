@@ -102,3 +102,40 @@
 }
 
 
+/* --- RESPONSIVE / MOBILE (Tablets y Celulares) --- */
+@media screen and (max-width: 768px) {
+    
+    .nav {
+        /* Reducimos la altura y el padding lateral */
+        height: 4.5rem; 
+        padding: 0 1.5rem; 
+    }
+
+    /* Ajustamos el tamaño del logo */
+    .main-logo {
+        font-size: 1.2rem;
+    }
+
+    /* Ocultamos al robot TARS en móviles para ahorrar espacio (opcional) 
+       o lo hacemos más pequeño */
+    .tars-container {
+        display: none; 
+    }
+
+    /* Ocultamos los TEXTOS de los links (Insta, Face, Github) 
+       y dejamos solo los iconos */
+    .social {
+        display: none;
+    }
+
+    /* Ajustamos los contenedores de los iconos para que estén más juntos */
+    .fbin {
+        margin-right: 1rem;
+    }
+
+    .social-container {
+        /* Hacemos los iconos un poco más pequeños pero accesibles */
+        width: 2rem;
+        height: 2rem;
+    }
+}

@@ -90,3 +90,59 @@ body {
     backdrop-filter: blur(10px); /* Efecto borroso detrás del botón */
     
 }
+
+/* --- RESPONSIVE / MOBILE (Tablets y Celulares) --- */
+@media screen and (max-width: 768px) {
+
+    .grid {
+        /* IMPORTANTE: Desactivamos el Grid 5x5 y usamos Flexbox */
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Centra verticalmente */
+        align-items: center; /* Centra horizontalmente */
+        
+        /* Un poco de padding arriba para que el navbar no tape el texto */
+        padding-top: 4rem; 
+        gap: 3rem; /* Espacio entre el texto y el botón */
+    }
+
+    .text {
+        /* Reseteamos las posiciones del grid anterior */
+        grid-column: auto;
+        grid-row: auto;
+        
+        /* Ajustes de texto para móvil */
+        text-align: center;
+        font-size: 2.5rem; /* Texto grande e impactante */
+        padding: 0 20px; /* Para que no pegue a los bordes de la pantalla */
+        width: 100%;
+        
+        /* Aseguramos que se lea bien con una sombra más fuerte */
+        text-shadow: 0 4px 20px rgba(0, 0, 0, 1); 
+    }
+
+    .button-container {
+        /* Reseteamos las posiciones del grid anterior */
+        grid-column: auto;
+        grid-row: auto;
+        
+        /* Centramos */
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .button-container button {
+        /* Hacemos el botón un poco más chico para móvil */
+        font-size: 1.5rem;
+        padding: 12px 30px;
+        width: 80%; /* Botón ancho es más fácil de tocar con el dedo */
+        max-width: 300px;
+    }
+
+    /* Ajuste del fondo para que el astronauta se vea mejor */
+    .background {
+        /* A veces en móvil conviene mover el fondo un poco */
+        background-position: center bottom; /* Intenta enfocar la parte baja si ahí está el astronauta */
+    }
+}
