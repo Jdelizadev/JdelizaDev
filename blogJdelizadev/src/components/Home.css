@@ -67,7 +67,7 @@ body {
 }
 
 .button-container button {
-    background: #4facfe; /* Se vuelve azul sólido al pasar el mouse */
+    background: #10599aba; /* Se vuelve azul sólido al pasar el mouse */
     border-color: #4facfe;
     box-shadow: 0 0 25px rgba(79, 172, 254, 0.6); /* Resplandor neón */
     transform: scale(1.05); /* Crece un poquito */      
