@@ -43,7 +43,6 @@
 }
 
 .social {
-    margin-top: 1rem;
     margin-right: .5rem;
     font-weight: 500;
     margin-left: .5rem;
@@ -82,17 +81,21 @@
 .second-social-container {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
+.second-social-container a {
+    justify-self: center;
+}
 .second-social-container a:hover {
     color: rgb(70, 70, 95); /* Azul brillante al pasar el mouse */
     transform: translateY(-2px); /* Un pequeño saltito hacia arriba */
 }
 
 .social-container {
-    place-self: center;
-    width: 3rem;
-    height: 3rem;
+    align-self: center;
+    width: 2rem;
+    height: 2rem;
 }
 
 .item {

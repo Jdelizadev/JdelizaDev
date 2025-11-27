@@ -19,15 +19,12 @@ const NavBar = () => {
                 <div  className="main-social-container">
 
                     <div className="second-social-container fbin">
-                            {/* <div className="social-container">
-                                <img src={logoInsta} alt="" />
-                            </div> */}
                         <div  className="social-container">
                             <FaInstagram className="item"/>
                         </div>
-                        <Link className="social">
-                         Insta
-                        </Link>
+                            <Link className="social">
+                            Insta
+                            </Link>
                     </div>
 
                     <div className="second-social-container fbin">
