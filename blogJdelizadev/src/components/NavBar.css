@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.nav {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+
+    display: flex;  
+    width: 100vw;
+    height: 6rem;
+    background-color: rgba(10, 15, 30, 0.523);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4rem;
+
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* Para compatibilidad con Safari */
+
+    /* 4. Detalles estéticos opcionales */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Una línea sutil abajo */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5); /* Sombra suave */
+}
+
+
+.main-logo {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    align-self: center;
+}
+
+.social {
+    margin-top: 1rem;
+    margin-right: .5rem;
+    font-weight: 500;
+    margin-left: .5rem;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+
+.tars-container {
+    height: 5rem;
+    width: 7rem;
+    display: flex;
+    justify-content: center;
+}
+
+.tars-container img {
+    width: 3rem;
+    height: 4rem;
+    
+}
+
+.left-nav-items {
+    display: flex;
+}
+
+.main-social-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.fbin {
+    margin-right: 2rem;
+}
+
+.second-social-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.second-social-container a:hover {
+    color: rgb(70, 70, 95); /* Azul brillante al pasar el mouse */
+    transform: translateY(-2px); /* Un pequeño saltito hacia arriba */
+}
+
+.social-container {
+    place-self: center;
+    width: 3rem;
+    height: 3rem;
+}
+
+.item {
+    color: rgba(255, 255, 255, 0.768);
+    width: 100%;
+    height: 100%;
+}
+
+
