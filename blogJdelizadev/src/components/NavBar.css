@@ -38,6 +38,10 @@
     align-self: center;
 }
 
+.main-logo:hover {
+    color: rgb(70, 70, 95);
+}
+
 .social {
     margin-top: 1rem;
     margin-right: .5rem;
