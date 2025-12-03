@@ -91,6 +91,11 @@ body {
     
 }
 
+.button-container a {
+    color: white;
+    text-decoration: none;
+}
+
 /* --- RESPONSIVE / MOBILE (Tablets y Celulares) --- */
 @media screen and (max-width: 768px) {
 

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 import './NavBar.css'
 import tars from '../assets/tars.png'
 
-import { FaInstagram, FaFacebook, FaGithub } from "react-icons/fa";
+import { FaInstagram, FaFacebook, FaGithub, FaHome } from "react-icons/fa";
 
 const NavBar = () => {
     return (
@@ -17,6 +17,13 @@ const NavBar = () => {
                 </div>
 
                 <div  className="main-social-container">
+
+                    <div className="second-social-container fbin">
+                            <div  className="social-container">
+                            <FaHome className="item"/>
+                            </div>
+                        <Link to={'/'} className="social">Home</Link>
+                    </div>
 
                     <div className="second-social-container fbin">
                         <div  className="social-container">

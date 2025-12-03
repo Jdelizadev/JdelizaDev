@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom'
 import './Home.css'
 
 const Home = () => {
@@ -12,7 +12,9 @@ const Home = () => {
 
                     <div className='button-container'>
                         <button>
-                            Comenzar
+                            <Link to='/Blog'>
+                                Comenzar
+                            </Link> 
                         </button>
                     </div>
                     
