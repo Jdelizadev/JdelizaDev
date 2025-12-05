@@ -11,11 +11,13 @@ const Home = () => {
                     </p>
 
                     <div className='button-container'>
+                        <Link to={'/Blog'}>
                         <button>
                             <Link to='/Blog'>
                                 Comenzar
                             </Link> 
                         </button>
+                        </Link>
                     </div>
                     
                 </div>
