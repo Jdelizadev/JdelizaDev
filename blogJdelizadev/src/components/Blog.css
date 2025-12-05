@@ -1,6 +1,11 @@
 
 .blog-container {
-    margin-top: 6rem;
     padding-top: 2rem;
     padding-left: 2rem;
+
+    background-image: url('../assets/fondoBlog.png');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
 }
