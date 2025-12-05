@@ -20,7 +20,7 @@ const NavBar = () => {
 
                     <div className="second-social-container fbin">
                             <div  className="social-container">
-                            <FaHome className="item"/>
+                                <Link to={'/'}><FaHome className="item"/></Link>
                             </div>
                         <Link to={'/'} className="social">Home</Link>
                     </div>
