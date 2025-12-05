@@ -141,7 +141,6 @@ body {
         /* Hacemos el botón un poco más chico para móvil */
         font-size: 1.5rem;
         padding: 12px 30px;
-        width: 80%; /* Botón ancho es más fácil de tocar con el dedo */
         max-width: 300px;
     }
 
