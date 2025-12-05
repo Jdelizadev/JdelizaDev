@@ -46,7 +46,7 @@ body {
     grid-row: 2 / 3;
     place-self: center;
     font-size: 2rem;
-
+    letter-spacing: .10rem;
     font-weight: 700;
     color: #ffffff;
     line-height: 1.1;

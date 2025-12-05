@@ -2,14 +2,14 @@ import { Link } from "react-router-dom"
 import './NavBar.css'
 import tars from '../assets/tars.png'
 
-import { FaInstagram, FaFacebook, FaGithub, FaHome } from "react-icons/fa";
+import { FaEnvelope,  FaGithub, FaHome, FaLinkedin } from "react-icons/fa";
 
 const NavBar = () => {
     return (
         <>
             <nav className="nav">
                 <div className="left-nav-items">
-                    <Link className="main-logo">Jdelizadev</Link>
+                    <Link to={''} className="main-logo">Jdelizadev</Link>
                     
                     <div className="tars-container">
                         <img src={tars} alt="" />
@@ -27,31 +27,38 @@ const NavBar = () => {
 
                     <div className="second-social-container fbin">
                         <div  className="social-container">
-                            <FaInstagram className="item"/>
+                            <FaEnvelope className="item"/>
                         </div>
-                            <Link className="social">
-                            Insta
-                            </Link>
+                            <a href="mailto:jaimedelizaola@gmail.com"
+                            className="social">
+                            Gmail
+                            </a>
                     </div>
 
                     <div className="second-social-container fbin">
                             <div  className="social-container">
-                            <FaFacebook className="item"/>
+                            <FaLinkedin className="item"/>
                             </div>
-                        <Link className="social">Facebook</Link>
+                        <a href="https://www.linkedin.com/in/jaime-luis-de-lizaola-b63b26279/"
+                        target="blank"
+                        rel="noopener noreferrer"
+                        className="social">Linkedin</a>
                     </div>
                     
                     <div className="second-social-container">
                             <div  className="social-container">
                             <FaGithub className="item"/>
                             </div>
-                        <Link className="social">Github</Link>
+                        <a href="https://github.com/Jdelizadev"
+                        target="blank" 
+                        rel="noopener noreferrer"
+                        className="social">Github</a>
                     </div>
 
                 </div>
             </nav>
         </>
-    )
+ )
 }
 
 export { NavBar }
