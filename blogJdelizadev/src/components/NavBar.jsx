@@ -27,7 +27,7 @@ const NavBar = () => {
 
                     <div className="second-social-container fbin">
                         <div  className="social-container">
-                            <FaEnvelope className="item"/>
+                            <a href="mailto:jaimedelizaola@gmail.com"><FaEnvelope className="item"/></a>
                         </div>
                             <a href="mailto:jaimedelizaola@gmail.com"
                             className="social">
@@ -37,7 +37,12 @@ const NavBar = () => {
 
                     <div className="second-social-container fbin">
                             <div  className="social-container">
-                            <FaLinkedin className="item"/>
+                                <a href="https://www.linkedin.com/in/jaime-luis-de-lizaola-b63b26279/"
+                                   target="blank"
+                                   rel="noopener noreferrer"
+                                >
+                                    <FaLinkedin className="item"/>
+                                </a>
                             </div>
                         <a href="https://www.linkedin.com/in/jaime-luis-de-lizaola-b63b26279/"
                         target="blank"
@@ -47,7 +52,12 @@ const NavBar = () => {
                     
                     <div className="second-social-container">
                             <div  className="social-container">
-                            <FaGithub className="item"/>
+                                <a href="https://github.com/Jdelizadev"
+                                   target="blank"
+                                   rel="noopener noreferrer"
+                                >
+                                    <FaGithub className="item"/>
+                                </a>
                             </div>
                         <a href="https://github.com/Jdelizadev"
                         target="blank" 
