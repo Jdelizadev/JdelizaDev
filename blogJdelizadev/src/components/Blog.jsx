@@ -1,6 +1,6 @@
 
 import './Blog.css'
-import bkCt from '../assets/fondoCt.png'
+import bkCt from '../assets/fondoCt.webp'
 
 
 const Blog = () => {

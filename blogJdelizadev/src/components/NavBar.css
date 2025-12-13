@@ -36,10 +36,12 @@
     font-weight: bold;
     font-size: 1.5rem;
     align-self: center;
+    transition: transform 0.5s;
 }
 
 .main-logo:hover {
     color: rgb(70, 70, 95);
+    transform: rotateY(180deg);
 }
 
 .social {
@@ -63,6 +65,9 @@
     width: 3rem;
     height: 4rem;
     
+}
+.tars-container img:hover {
+    transform: scale(1.4);
 }
 
 .left-nav-items {
