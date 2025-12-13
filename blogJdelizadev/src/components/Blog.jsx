@@ -48,7 +48,7 @@ const Blog = () => {
                         <img src={Proyects} alt="certificado plazti" />
                     </div>
                     <div className='text-container'>
-                        <p className='card-title'>Otros proyectos desarrollados</p>
+                        <p className='card-title'>Proyectos <br /> desarrollados</p>
                         <a className='card-subtitle' href="">Navegar</a>
                     </div>
                 </div>
