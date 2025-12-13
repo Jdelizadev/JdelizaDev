@@ -10,7 +10,7 @@
     font-family: "Bitcount Prop Single", sans-serif;
     display: flex;
     flex-direction: column;
-    padding-top: 7rem;
+    padding-top: 6rem;
     padding-left: 2rem;
 
     background-image: url('../assets/fondoBlog.webp');
@@ -29,9 +29,9 @@
 .platzi-container {
     display: flex;
     flex-direction: column;
-    margin-top: 25px;
+    margin-top: 15px;
     
-    height:65vh;
+    height:67vh;
     width: 25vw;
 
     border-radius: 10px;
@@ -40,9 +40,13 @@
 
 .card-img-container {
     justify-self: center;
-    height: 31vh;
+    height: 38vh;
     width: 21vw;
     margin-top: 25px;
+}
+
+.card-img-container.certificado img {
+    object-fit: fill;
 }
 
 .card-img-container img {
@@ -55,7 +59,7 @@
 
 .card-title {
     text-align: center;
-    margin-top: 25px;
+    margin-top: 22px;
     font-size: 1.75rem;
     color: white;
 }
